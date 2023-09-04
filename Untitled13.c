@@ -4,6 +4,7 @@
 //diameter=2*radius
 //circumference=2*(22/7)*radius
 //area=(22/7)*(radius^2)
+//22/7=3.14
 
 
 #include <stdio.h>
@@ -18,13 +19,13 @@ int main(void){
 	
 //	calculation
 	diameter=2*radius;
-	circumference=2*(22/7)*radius;
-	area=(22/7)*(radius^2);
+	circumference=2*(3.14)*radius;
+	area=(3.14)*(radius^2);
 	
 //	print out put (diameter, circumference, area)
-	printf("Diameter of circle : %d",diameter);
-	printf("Circumference of circle : %f",circumference);
-	printf("Area of circle : %f",area);
+	printf("Diameter of circle : %d\n",diameter);
+	printf("Circumference of circle : %.2f\n",circumference);
+	printf("Area of circle : %.2f\n",area);
 	
 	return 0;
 
